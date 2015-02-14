@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap-sidebar</artifactId>
-    <version>0.2.2-SNAPSHOT</version>
+    <version>0.2.2</version>
     <name>bootstrap-sidebar</name>
     <description>WebJar for bootstrap-sidebar</description>
     <url>http://webjars.org</url>
@@ -63,7 +63,7 @@
         <url>http://github.com/webjars/bootstrap-sidebar</url>
         <connection>scm:git:https://github.com/webjars/bootstrap-sidebar.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/bootstrap-sidebar.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>bootstrap-sidebar-0.2.2</tag>
     </scm>
     
     <build>
@@ -84,7 +84,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/bootstrap-sidebar-${upstream.version}/dist" includes="js/,css/"/>
+                                    <fileset dir="${project.build.directory}/bootstrap-sidebar-${upstream.version}/dist" includes="js/,css/" />
                                 </move>
                             </target>
                         </configuration>
