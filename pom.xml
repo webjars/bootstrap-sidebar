@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap-sidebar</artifactId>
-    <version>0.2.2</version>
+    <version>0.2.3-SNAPSHOT</version>
     <name>bootstrap-sidebar</name>
     <description>WebJar for bootstrap-sidebar</description>
     <url>http://webjars.org</url>
@@ -63,7 +63,7 @@
         <url>http://github.com/webjars/bootstrap-sidebar</url>
         <connection>scm:git:https://github.com/webjars/bootstrap-sidebar.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/bootstrap-sidebar.git</developerConnection>
-        <tag>bootstrap-sidebar-0.2.2</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <build>
